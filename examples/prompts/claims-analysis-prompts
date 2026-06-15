@@ -1,0 +1,8 @@
+# Claims Analysis Example Prompts
+
+```text
+Use the Claims Analysis skill to review the claims extract in data/input. Identify the top external failure cost drivers and recommend which issues deserve improvement investment.
+```
+
+```text
+Analyze claims by product family and failure mode. Prioritize issues based on claim cost, recurrence, customer experience impact, and business breadth.
