@@ -95,17 +95,7 @@ Path:
 skills/claims-analysis/SKILL.md
 ```
 
-### 2. Constraint Analysis and Alternative Recommendations
-
-Analyzes operational, product, process, supply, data, or organizational constraints and recommends alternatives that reduce business friction, quality risk, customer disruption, or financial impact.
-
-Path:
-
-```text
-skills/constraint-analysis-alternative-recommendations/SKILL.md
-```
-
-### 3. Margin Impact Analysis
+### 2. Margin Impact Analysis
 
 Analyzes how quality failures, claims, rework, concessions, scrap, warranty labor, freight, and related costs affect product, customer, channel, or business unit margin.
 
@@ -115,7 +105,7 @@ Path:
 skills/margin-impact-analysis/SKILL.md
 ```
 
-### 4. Order Book Analysis
+### 3. Order Book Analysis
 
 Analyzes open orders, backlog, shipment patterns, customer exposure, and order risk to understand where quality, fulfillment, or operational issues may affect revenue, cash conversion, and customer experience.
 
@@ -134,6 +124,10 @@ The repo reserves space for future skills.
 ### Quality Calculator
 
 Reusable calculations for claim rate, failure rate, Cost of Quality, external failure cost, internal failure cost, ROI, exposure, quality-adjusted margin, and improvement payback.
+
+### Constraint Analysis and Alternative Recommendations
+
+Analyzes operational, product, process, supply, data, or organizational constraints and recommends alternatives that reduce business friction, quality risk, customer disruption, or financial impact.
 
 ### Predictive Failure Analysis
 
@@ -259,9 +253,6 @@ quality-analytics-copilot-cli/
     claims-analysis/
       SKILL.md
 
-    constraint-analysis-alternative-recommendations/
-      SKILL.md
-
     margin-impact-analysis/
       SKILL.md
 
@@ -273,6 +264,9 @@ quality-analytics-copilot-cli/
 
     quality-calculator/
       README.md
+
+    constraint-analysis-alternative-recommendations/
+      SKILL.md
 
     predictive-failure-analysis/
       README.md
