@@ -1,0 +1,235 @@
+# Skill: Margin Impact Analysis
+
+## Purpose
+
+Analyze how quality issues, claims, rework, concessions, scrap, warranty labor, freight, and other failure costs affect product, customer, channel, brand, or business unit margin.
+
+This skill should help leaders understand where quality problems are eroding profitability and which improvement opportunities can protect or expand margin.
+
+## When to Use This Skill
+
+Use this skill when evaluating:
+
+- Product margin erosion
+- Customer profitability issues
+- Quality-adjusted margin
+- Claim cost impact
+- Warranty exposure
+- Scrap and rework cost
+- Freight or replacement cost
+- Customer concessions
+- Margin leakage by product, brand, channel, or customer
+- Cost of quality impact on profitability
+
+## Business Objectives Supported
+
+Margin impact analysis should connect findings to:
+
+- Grow net sales by protecting customer trust and supporting profitable growth
+- Reduce the cash conversion cycle by reducing credits, disputes, replacements, and rework
+- Manage the balance sheet by reducing reserves, liabilities, and preventable cost exposure
+- Reduce failure cost and margin leakage
+- Prioritize improvement work based on financial return
+
+## Required Inputs
+
+Preferred inputs include:
+
+- Product, SKU, catalog number, or material
+- Brand
+- Product family
+- Customer
+- Channel
+- Region
+- Net sales
+- Gross margin
+- Contribution margin, if available
+- Units sold or shipped
+- Claim cost
+- Scrap cost
+- Rework cost
+- Freight cost
+- Warranty labor cost
+- Credits or concessions
+- Replacement cost
+
+## Optional Inputs
+
+- Standard cost
+- Variable cost
+- Fixed cost allocation
+- Warranty reserve data
+- Customer lifetime value
+- Product lifecycle stage
+- Launch date
+- Claims count
+- Order count
+- Installed base
+- Strategic priority indicators
+
+## Analysis Steps
+
+1. Confirm analysis scope:
+   - Time period
+   - Product family
+   - Brand
+   - Customer
+   - Channel
+   - Region
+   - Business unit
+
+2. Validate financial fields:
+   - Confirm net sales
+   - Confirm margin definition
+   - Confirm cost categories
+   - Identify missing or estimated cost fields
+
+3. Calculate baseline profitability:
+   - Net sales
+   - Gross margin
+   - Gross margin percent
+   - Contribution margin, if available
+   - Units sold or shipped
+   - Margin per unit
+
+4. Overlay quality costs:
+   - Claims
+   - Scrap
+   - Rework
+   - Freight
+   - Warranty labor
+   - Credits
+   - Concessions
+   - Replacement cost
+   - Other failure cost
+
+5. Calculate quality-adjusted margin:
+   - Margin after known quality costs
+   - Quality cost as percent of sales
+   - Quality cost as percent of margin
+   - Margin leakage by product/customer/channel
+
+6. Segment the results:
+   - Product
+   - Brand
+   - Product family
+   - Customer
+   - Channel
+   - Region
+   - Failure mode
+   - Claim type
+
+7. Identify margin risk:
+   - High sales / high quality cost
+   - Low margin / high failure cost
+   - High-runner products with recurring quality cost
+   - Strategic products with poor quality-adjusted profitability
+
+8. Prioritize improvement opportunities:
+   - Favor high volume, high margin leakage, recurring issues.
+   - Flag products or customers where quality cost materially changes profitability.
+   - Avoid prioritizing low-dollar margin issues without strategic breadth.
+
+9. Recommend actions:
+   - Root cause analysis
+   - Pricing review
+   - Product redesign
+   - Supplier corrective action
+   - Warranty policy review
+   - Process improvement
+   - Customer segmentation
+   - Discontinue, redesign, or reposition analysis if warranted
+
+## Core Metrics
+
+Use available data to calculate:
+
+- Net sales
+- Gross margin
+- Gross margin percent
+- Contribution margin
+- Known quality cost
+- Quality cost as percent of sales
+- Quality cost as percent of margin
+- Quality-adjusted margin
+- Margin leakage
+- Failure cost per unit
+- Failure cost per claim
+- Margin at risk
+- Estimated avoided cost
+- Improvement ROI
+- Payback period
+
+## Output Format
+
+### Executive Summary
+
+Summarize where quality is eroding margin and which opportunities deserve investment.
+
+### Profitability Baseline
+
+Summarize sales, margin, and volume.
+
+### Quality Cost Overlay
+
+Show known quality costs and where they are concentrated.
+
+### Quality-Adjusted Margin
+
+Explain how profitability changes after known failure costs.
+
+### Top Margin Leakage Drivers
+
+Rank products, customers, brands, channels, or failure modes.
+
+### Business Impact
+
+Explain impact on net sales, cash conversion, balance sheet, and customer experience.
+
+### Recommended Actions
+
+State recommended improvement priorities and expected financial benefit.
+
+### Risks, Assumptions, and Data Gaps
+
+State limitations, especially missing cost categories.
+
+### Suggested Next Analysis
+
+Identify next steps to validate root cause or financial return.
+
+## Recommended Visuals
+
+- Margin leakage Pareto
+- Quality cost as percent of margin by product
+- Sales vs quality cost matrix
+- Margin percent vs quality cost percent scatterplot
+- Customer/product profitability heatmap
+- Quality-adjusted margin bridge
+- High-runner priority matrix
+
+## Guardrails
+
+- Do not assume gross margin tells the whole profitability story.
+- Do not ignore hidden quality costs such as labor, freight, concessions, and customer friction.
+- Do not compare products without noting differences in volume, lifecycle, and exposure.
+- Do not recommend pricing or product actions without noting data limitations.
+- Do not over-prioritize low-volume margin issues unless they are strategic or reveal broader risk.
+
+## Example Prompts
+
+```text
+Use the Margin Impact Analysis skill to identify where quality costs are eroding product margin and recommend improvement priorities.
+```
+
+```text
+Analyze quality-adjusted margin by product family using sales, gross margin, claim cost, scrap, and rework data.
+```
+
+```text
+Find high-runner products where failure cost materially reduces profitability.
+```
+
+## Definition of Done
+
+The analysis is complete when it quantifies margin leakage, ranks the largest quality-driven profitability risks, and recommends actions tied to financial return.
