@@ -1,0 +1,9 @@
+# Order Book Analysis Example Prompts
+
+```text
+Use the Order Book Analysis skill to identify at-risk backlog and recommend actions to protect revenue and reduce cash conversion delay.
+```
+
+```text
+Find orders tied to products with known quality issues and estimate revenue, margin, and customer experience risk.
+```
