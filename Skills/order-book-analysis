@@ -1,0 +1,237 @@
+# Skill: Order Book Analysis
+
+## Purpose
+
+Analyze open orders, backlog, shipment patterns, customer exposure, and order risk to understand where quality, fulfillment, or operational issues may affect revenue, cash conversion, customer experience, and business performance.
+
+This skill should help leaders understand what is at risk in the order book and where intervention can protect revenue or accelerate cash conversion.
+
+## When to Use This Skill
+
+Use this skill when analyzing:
+
+- Open orders
+- Backlog
+- Shipment delays
+- Revenue exposure
+- Quality holds
+- Customer order risk
+- Product availability risk
+- Fulfillment constraints
+- Large customer exposure
+- Orders affected by known quality issues
+- Orders that may create future claims or dissatisfaction
+
+## Business Objectives Supported
+
+Order book analysis should connect findings to:
+
+- Grow net sales by protecting revenue and customer confidence
+- Reduce the cash conversion cycle by accelerating shipment, billing, and resolution
+- Manage the balance sheet by reducing excess exposure, inventory risk, and costly failure outcomes
+- Improve customer experience by identifying at-risk orders before escalation
+- Prioritize interventions based on revenue, margin, customer impact, and business breadth
+
+## Required Inputs
+
+Preferred inputs include:
+
+- Order number
+- Order date
+- Requested ship date
+- Scheduled ship date
+- Customer
+- Customer segment
+- Product, SKU, catalog number, or material
+- Brand
+- Product family
+- Quantity ordered
+- Open quantity
+- Order value
+- Margin, if available
+- Order status
+- Hold status
+- Backlog status
+- Ship-to region
+- Sales channel
+- Reason for delay or hold, if available
+
+## Optional Inputs
+
+- Claims history
+- Product failure history
+- Inventory availability
+- Manufacturing capacity
+- Supplier lead time
+- Shipment history
+- Customer priority
+- Strategic account flag
+- Credit hold data
+- Quality hold data
+- Revenue recognition status
+- Expected invoice date
+
+## Analysis Steps
+
+1. Confirm scope:
+   - Time period
+   - Open orders only or full order book
+   - Business unit
+   - Brand
+   - Product family
+   - Channel
+   - Customer segment
+
+2. Validate data:
+   - Check order status
+   - Check date fields
+   - Check open quantity
+   - Check order value
+   - Check hold or delay reasons
+   - Identify duplicates or canceled orders
+
+3. Summarize the order book:
+   - Total open orders
+   - Open order value
+   - Open units
+   - Backlog value
+   - Average age
+   - Past due orders
+   - Orders on hold
+
+4. Segment by:
+   - Customer
+   - Product
+   - Brand
+   - Product family
+   - Channel
+   - Region
+   - Hold reason
+   - Delay reason
+   - Strategic priority
+
+5. Identify risk:
+   - Past due orders
+   - High-value delayed orders
+   - Orders tied to known quality issues
+   - Orders for products with elevated claim rates
+   - Orders on quality hold
+   - Orders with customer escalation risk
+   - Orders affecting strategic customers
+
+6. Quantify business impact:
+   - Revenue exposure
+   - Margin exposure
+   - Cash conversion delay
+   - Customer experience risk
+   - Balance sheet or inventory exposure
+   - Potential future claims exposure
+
+7. Prioritize intervention:
+   - High-value and high-risk orders first
+   - Orders affecting strategic customers or high-runner products
+   - Orders with broad impact across customers or product lines
+   - Low-value isolated orders only if strategic, reputational, or systemic
+
+8. Recommend actions:
+   - Expedite
+   - Release hold
+   - Substitute product
+   - Escalate quality decision
+   - Communicate with customer
+   - Split shipment
+   - Review inventory or capacity
+   - Investigate recurring delay reason
+   - Link to claims or failure analysis
+
+## Core Metrics
+
+Use available data to calculate:
+
+- Open order count
+- Open order value
+- Open units
+- Backlog value
+- Past due order count
+- Past due value
+- Average days open
+- Days past due
+- Hold count
+- Hold value
+- Revenue at risk
+- Margin at risk
+- Customer concentration
+- Product concentration
+- Orders tied to known quality issues
+- Estimated cash conversion delay
+
+## Output Format
+
+### Executive Summary
+
+Summarize what is at risk in the order book and where action is needed.
+
+### Order Book Overview
+
+Summarize open orders, backlog, value, age, and major concentrations.
+
+### At-Risk Orders
+
+Identify the orders, products, customers, or segments with the highest risk.
+
+### Business Impact
+
+Explain implications for net sales, cash conversion, balance sheet, quality cost, and customer experience.
+
+### Priority Ranking
+
+Rank intervention opportunities based on revenue exposure, customer impact, margin, and business breadth.
+
+### Recommended Actions
+
+State clear recommended next steps.
+
+### Risks, Assumptions, and Data Gaps
+
+State what is unknown or missing.
+
+### Suggested Next Analysis
+
+Identify whether to connect to claims, constraints, margin, or predictive failure analysis.
+
+## Recommended Visuals
+
+- Backlog aging chart
+- Open order value by customer
+- Open order value by product family
+- Past due Pareto
+- Hold reason Pareto
+- Revenue exposure heatmap
+- Risk matrix by value and days past due
+- Customer concentration view
+
+## Guardrails
+
+- Do not treat all backlog as bad; distinguish healthy backlog from at-risk backlog.
+- Do not prioritize only by order value; include customer, margin, timing, quality risk, and strategic context.
+- Do not ignore quality holds or known failure patterns.
+- Do not recommend shipment if unresolved quality risk could create larger future failure cost.
+- Do not over-prioritize a low-value order without broader or strategic justification.
+
+## Example Prompts
+
+```text
+Use the Order Book Analysis skill to identify at-risk backlog and recommend actions to protect revenue and reduce cash conversion delay.
+```
+
+```text
+Analyze open orders by customer, product family, hold reason, and days past due. Prioritize interventions.
+```
+
+```text
+Find orders tied to products with known quality issues and estimate revenue, margin, and customer experience risk.
+```
+
+## Definition of Done
+
+The analysis is complete when it identifies at-risk order book exposure, quantifies business impact, ranks intervention priorities, and recommends next actions.
