@@ -1,5 +1,6 @@
-##Quality Analytics Copilot CLI Skills Repository
-#Purpose
+Quality Analytics Copilot CLI Skills Repository
+
+Purpose
 This repository contains reusable Copilot CLI skills for quality-focused business analysis.
 
 The system is designed to help a senior business analyst farm out repeatable analytical assignments to AI-assisted subordinate analysts. Each skill should inspect relevant data, perform a focused analysis, connect findings to business objectives, and produce decision-ready recommendations.
