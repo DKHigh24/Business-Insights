@@ -63,27 +63,23 @@ This repository starts with four core skills.
 1. Claims Analysis
 Analyzes claims data to identify recurring quality issues, costly failure modes, high-impact products, customer pain points, and improvement opportunities.
 
-Path:
+Path: skills/claims-analysis/SKILL.md
 
-skills/claims-analysis/SKILL.md
 2. Constraint Analysis and Alternative Recommendations
 Analyzes operational, product, process, supply, data, or organizational constraints and recommends alternatives that reduce business friction, quality risk, customer disruption, or financial impact.
 
-Path:
+Path: skills/constraint-analysis-alternative-recommendations/SKILL.md
 
-skills/constraint-analysis-alternative-recommendations/SKILL.md
 3. Margin Impact Analysis
 Analyzes how quality failures, claims, rework, concessions, scrap, warranty labor, freight, and related costs affect product, customer, channel, or business unit margin.
 
-Path:
+Path: skills/margin-impact-analysis/SKILL.md
 
-skills/margin-impact-analysis/SKILL.md
 4. Order Book Analysis
 Analyzes open orders, backlog, shipment patterns, customer exposure, and order risk to understand where quality, fulfillment, or operational issues may affect revenue, cash conversion, and customer experience.
 
-Path:
+Path: skills/order-book-analysis/SKILL.md
 
-skills/order-book-analysis/SKILL.md
 Future Feature Adds
 The repo reserves space for future skills.
 
@@ -103,30 +99,34 @@ Phase 1: Enterprise Quality View
 The first version should evaluate quality across the company to identify the largest quality cost drivers, failure patterns, business risks, and improvement opportunities.
 
 Phase 2: Breakout by Business Dimension
+
 Future iterations should segment analysis by:
 
-Vertical
-Product type
-Brand
-Customer segment
-Sales channel
-Region
-Business unit
-Failure type
-Claim type
-Process stage
-Strategic growth area
+  Vertical
+  Product type
+  Brand
+  Customer segment
+  Sales channel
+  Region
+  Business unit
+  Failure type
+  Claim type
+  Process stage
+  Strategic growth area
+
 Phase 3: Leader-Tailored Insights
 As the system matures, each leader should receive analysis specific to their area of responsibility:
 
 What quality issues matter most to my business area?
-Which products, brands, or customers carry the most quality risk?
-Where are we losing margin, cash, or customer confidence?
-Which improvement opportunities should my team prioritize?
-What action should be taken next?
+  Which products, brands, or customers carry the most quality risk?
+  Where are we losing margin, cash, or customer confidence?  
+  Which improvement opportunities should my team prioritize?
+  What action should be taken next?
+
 The progression should be:
 
 Enterprise View → Segment View → Leader-Specific View → Actionable Improvement Plan
+
 Skill Output Standard
 Every skill should move from data to decision.
 
